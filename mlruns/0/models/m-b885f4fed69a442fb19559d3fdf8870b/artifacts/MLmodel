@@ -1,0 +1,22 @@
+artifact_path: /home/ali/Documents/GitHub/projectone/mlruns/0/models/m-b885f4fed69a442fb19559d3fdf8870b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.8.1
+model_id: m-b885f4fed69a442fb19559d3fdf8870b
+model_size_bytes: 913
+model_uuid: m-b885f4fed69a442fb19559d3fdf8870b
+prompts: null
+run_id: afe390219af2448b82f99ed5cbf6a7f8
+utc_time_created: '2026-02-04 17:07:49.299005'
